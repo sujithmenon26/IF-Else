@@ -1,0 +1,9 @@
+n = int(input("enter the number\n"))
+if n%2 == 0 and 2 < n < 5:
+    print("Not Wired")
+elif 6 < n < 20 and n%2 == 0:
+    print("Not Wired")
+elif n%2 == 0 and 20 <= n <= 100:
+    print("Not Wired")
+else:
+    print("Wired")
